@@ -23,7 +23,7 @@ const i2=new item({
     name:"Hit the + button to add a new item"
 });
 const i3=new item({
-    name:"Hit the <-- button to add a new item"
+    name:"Hit the <-- (checkbox) to delete item"
 });
 
 
