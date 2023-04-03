@@ -52,6 +52,7 @@ app.get("/",function(req,resp){
 
 app.post("/",function(req,res){
     const itemname=req.body.newItem;
+    console.log(itemname)
     const i1=new item({
         name:itemname
     })
